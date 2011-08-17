@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage{array}
+\usepackage{CJK}
+
+
+\newcolumntype{x}[1]{%
+>{\centering\hspace{0pt}}p{#1}}%
+\newcommand{\tn}{\tabularnewline}
+
+\pdfadjustspacing=1
+\topmargin -0.6in
+\headheight 0in
+\headsep 0in
+\oddsidemargin 0in
+\evensidemargin 0in
+%\headheight 77pt
+%\headsep 0.2in
+
+
+
+\begin{document}
+\begin{CJK}{UTF8}{meiryo}
+  \fontsize{18}
+  \selectfont
+  \begin{center}
+    \begin{tabular}{x{1cm}x{1cm}x{1cm}x{1cm}x{1cm}x{1cm}x{1cm}x{1cm}x{1cm}}
+      日&月&木&山&川&人&口&車&門\tn
+      火&水&金&土&子&女&学&生&先\tn
+      私&一&二&三&四&五&六&七&八\tn
+      九&十&百&千&万&円&年&上&下\tn
+      中&大&小&本&半&分&力&何&明\tn
+      休&体&好&男&林&森&間&畑&岩\tn
+      目&耳&手&足&雨&竹&米&貝&石\tn
+      糸&花&茶&肉&文&字&物&牛&馬\tn
+      鳥&魚&新&古&長&短&高&安&暗\tn
+      多&少&行&来&帰&食&飲&読&書\tn
+      &&&&&&&&
+    
+    \end{tabular}
+  \end{center}
+\end{CJK}
+
+
+\end{document}
